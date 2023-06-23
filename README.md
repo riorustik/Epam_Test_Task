@@ -15,7 +15,7 @@ _______
   <dd>
     <dl>
       <dd>
-        <h3>[GitHub Pages](https://riorustik.github.io/Epam_Test_Task/) :octocat:
+          <h3><a href="https://riorustik.github.io/Epam_Test_Task/">GitHub Pages</a> :octocat:</h3>
       </dd>
     </dl>
   </dd>
