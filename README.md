@@ -43,7 +43,30 @@ function deepCopy(obj)
 ```
 
 В папке ***"docs"*** находится задание №2 (Функция "кликер", позволяет считать количество кликов мышью по разным цветам квадрата).
+```
+function main () 
+{
+  panelsElements.onclick = function(event) 
+  {
+    let link = event.target;
+    if(redBlock == link)
+      redClick = output(redClick, redBlock, redCounter);
+    if(greenBlock == link)
+      greenClick = output(greenClick, greenBlock, greenCounter); 
+    if(blueBlock == link)
+      blueClick = output(blueClick, blueBlock, blueCounter);
+  }
+}
+window.onload = main;
 
+function output(counter,inUnit,inLine)
+{
+  counter++;
+  inUnit.innerHTML = counter;
+  inLine.innerHTML = counter;
+  return counter;
+}
+```
 
 
 
